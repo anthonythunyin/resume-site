@@ -1,0 +1,121 @@
+h1 {
+  font-weight: 100;
+  letter-spacing: 6;
+  font-size: 40px;
+}
+
+h4 {
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+h5 {
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+html {
+  background: url(../images/NatGeo15.jpg) no-repeat center center fixed;
+  opacity: 0.92;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Helvetica Neue', sans serif;
+}
+
+p {
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.prof-box {
+  width: 600px;
+  height: 700px;
+  background: rgba(0,0,0,0.4);
+  padding: 40px;
+  color: white;
+  margin: 0 auto;
+  margin-top:100px;
+  text-align: center;
+}
+
+.prof-pic {
+  border-radius: 50%;
+  height: 160px;
+  width: 150px;
+}
+
+.social-icons {
+  font-size: 50px;
+}
+
+.social-icons a {
+  color: white;
+  text-decoration: none;
+}
+
+.line-break {
+  width: 580px;
+  margin: 0 auto;
+  border-top: 1px solid white;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  position: relative;
+  /*opacity: 0.65;*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1 {
+  background-image: url(../images/NatGeo15.jpg);
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url(../images/Aerial03.jpg);
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url(../images/NatGeo07.jpg);
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url(../images/NaturePatterns01.jpg);
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 70%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.tab { 
+  margin-left: 40px; 
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }
+}
