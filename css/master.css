@@ -33,7 +33,7 @@ p {
 }
 
 .prof-box {
-  width: 600px;
+  max-width: 100%;
   height: 700px;
   background: rgba(0,0,0,0.4);
   padding: 40px;
@@ -59,7 +59,7 @@ p {
 }
 
 .line-break {
-  width: 580px;
+  max-width: 100%;
   margin: 0 auto;
   border-top: 1px solid white;
 }
@@ -74,7 +74,7 @@ p {
 }
 .bgimg-1 {
   background-image: url(../images/NatGeo15.jpg);
-  min-height: 100%;
+  min-height: 400px;
 }
 
 .bgimg-2 {
@@ -113,9 +113,35 @@ p {
   margin-left: 40px; 
 }
 
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
+/*
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) {.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }}
+
+ Turn off parallax scrolling for tablets and phones
+@media only screen and (max-device-width: 512px) {
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
     }
-}
+}*/
